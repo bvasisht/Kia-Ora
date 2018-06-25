@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#eed2ee"
+    tools:context="com.example.hackdavis2017.Home">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView" />
+
+    <ImageButton
+     android:id = "@+id/add1"
+    android:src="@drawable/ic_add_black_24dp"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_marginLeft="50dp"
+        android:layout_marginTop="100dp"
+        android:background="#cd96cd"
+        android:onClick="AddDate"/>
+
+    <ImageButton
+        android:id = "@+id/forums"
+        android:src="@drawable/ic_create_black_24dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="100dp"
+        android:background="#cd96cd"
+        android:onClick="Forum"
+
+        />
+
+    <ImageButton
+        android:id ="@+id/play"
+        android:src="@drawable/ic_tag_faces_black_24dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="250dp"
+        android:background="#cd96cd"
+        android:onClick="PlayMedia"
+        />
+
+    <ImageButton
+        android:src="@drawable/ic_camera_alt_black_24dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="200dp"
+        android:background="#cd96cd"
+        android:layout_marginTop="250dp" />
+
+    <ImageView
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_marginLeft="70dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/my_logo"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_toEndOf="@+id/textView"
+        android:layout_marginBottom="480dp" />
+</RelativeLayout>

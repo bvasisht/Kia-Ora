@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Kia Ora - Be Well</string>
+
+    <string name="edit_message">Midterm/Assignment</string>
+    <string name="date">MM/DD/YY</string>
+    <string name="button_send" size="50">+</string>
+
+</resources>
